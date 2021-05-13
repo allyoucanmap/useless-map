@@ -1,0 +1,39 @@
+/* copyright 2021, stefano bovio @allyoucanmap. */
+
+.useless-map button {
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+.useless-map button:focus    {
+    outline: 1px solid #daffa8;
+}
+.useless-map button:hover {
+    background-color: #f2f2f2;
+}
+.useless-map button.active {
+    background-color: #daffa8;
+    border: 1px solid #333333;
+}
+.useless-map button.icon {
+    width: 1.6em;
+    height: 1.6em;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.useless-map button.icon img {
+    width: 1em;
+    height: 1em;
+}
+.useless-map button.icon.x2 {
+    width: 2em;
+    height: 2em;
+    font-size: 2em;
+}
+.useless-map button.icon.x2 img {
+    width: 2em;
+    height: 2em;
+}
